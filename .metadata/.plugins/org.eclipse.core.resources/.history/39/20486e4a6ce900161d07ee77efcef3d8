@@ -1,0 +1,16 @@
+package Set1;
+
+import java.util.Scanner;
+
+public class DataTypeAddition {
+
+	public static void main(String s[]){
+		int i = 4;
+        double d = 4.0;
+        String testString = "HackerRank ";
+		
+        Scanner scan = new Scanner(System.in);
+        
+        
+	}
+}

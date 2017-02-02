@@ -1,0 +1,17 @@
+package Set1;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class HelloWorld {
+
+	public static void main(String s[]){
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String s1 = br.readLine();
+		
+		// Print desired output and string from console in next line
+		System.out.println("Hello, World.");
+		System.out.println(s1);
+		
+	}
+}

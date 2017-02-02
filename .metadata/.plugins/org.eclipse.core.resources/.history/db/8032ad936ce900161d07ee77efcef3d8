@@ -1,0 +1,31 @@
+package Set1;
+
+import java.util.Scanner;
+
+public class DataTypeAddition {
+
+	public static void main(String s[]){
+		int i = 4;
+        double d = 4.0;
+        String testString = "HackerRank ";
+		
+        System.out.println("Programs begins");
+        
+        Scanner scan = new Scanner(System.in);
+        
+        int j;
+        double d2;
+        String testString2 = "";
+        
+        j = scan.nextInt();
+        d2 = scan.nextDouble();
+        testString2 = scan.nextLine();
+       
+        
+        
+        System.out.println(i+j);
+        System.out.println(d+d2);
+        System.out.println(testString+testString2);
+        
+	}
+}
